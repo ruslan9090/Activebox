@@ -3,7 +3,7 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Cardo', serif;
  */
 
-body {
+ body {
     margin: 0;
 
     font-family: 'Raleway', sans-serif;
@@ -17,7 +17,7 @@ body {
 *,
 *:before,
 *:after {
-    box-sizing: border-box;/*алгоритм подсчета размера блоков padding'ов итд*/
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +32,7 @@ p {
 /* Container */
 .container {
     width: 100%;
-    max-width: 1200px; /*1170 +15+15*/
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -127,7 +127,7 @@ p {
 
     font-family: 'Open Sans', sans-serif;
     font-size: 65px;
-    line-height: 1.1; /*1-это 65px, а 1.1-72 из fs*/
+    line-height: 1.1;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ p {
     margin-bottom: 60px;
     font-size: 22px;
     color: #fff;
-    line-height: 1.5;/*(22+11)/22*/
+    line-height: 1.5;
     font-weight: 400;
 }
 
@@ -260,7 +260,7 @@ p {
     left: 0;
     z-index: 2;
 
-    transition: opacity .2s linear;/*плавно*/
+    transition: opacity .2s linear;
 }
 
 .works__title {
@@ -291,7 +291,7 @@ p {
 
 .team__item {
     width: 25%;
-    padding: 0 15px; /*у каждого отступ по 15*/
+    padding: 0 15px;
     margin-bottom: 30px;
 }
 
@@ -577,7 +577,7 @@ p {
 
 
 /* Burger */
-.burger {  /*скрываем на комп-ре*/
+.burger {  
     display: none;
     padding: 9px 2px;
 
@@ -620,4 +620,3 @@ p {
     width: 26px;
     bottom: -8px;
 }
-
