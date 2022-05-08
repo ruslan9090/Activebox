@@ -1,5 +1,4 @@
-# Activebox
-Activebox_site
+# Activebox_site
 
 -Adaptive layout<br>-Website validation check<br>-Semantic use of tags<br>-Semantic attribute names
 <hr> 
